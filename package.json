@@ -1,0 +1,12 @@
+{
+  "name": "server-captcha-master",
+  "version": "1.0.0",
+  "description": "- Protect Your Server From Automated Bots With Captcha Now ! ![captcha](https://cdn.discordapp.com/attachments/590252468475133953/590258188788563974/discord-icon-7.png)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
