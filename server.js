@@ -1,6 +1,7 @@
 
 //const fs = require('fs');
-
+const Discord = require('discord.js');
+const bot = new Discord.Client();
 
 
 const verifyj = JSON.parse(fs.readFileSync("./verify.json", "utf8"))
@@ -132,5 +133,6 @@ let rf = message.guild.roles.find('name', `${verifyj[message.guild.id].rolev}`)
         if (err) console.error(err)
       })
     })
-}})                           
+}})   
 
+bot.login(process.env.BOT_TOKEN);
